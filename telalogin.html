@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Fones de Ouvidos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    <div class"
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+      <a href="https://api.whatsapp.com/send?phone=5599985259476&text=Fale com o nosso Suporte!" class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+      <link rel="stylesheet" href="styles.css">
+     <title>Login / Cadastro</title>
+     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    
+     
+     <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+
+    <header>
+      <a href="#" class="logo"><i class='bx bx-headphone'></i>Soundbox</a>
+
+        <ul class="navegação">
+        </ul><!--navegação-->
+
+        <div class="header-icons">
+        </div><!--header-icons-->
+    </header>
+
+    <section class="home">
+        <div class="home-img">
+            <img src="product1.png" class="one">
+        </div><!--home-img-->
+
+        <div class="home-text">
+
+            <h1>Wireless <br> Headphones</h1>
+            <h5>Design elegante, revestimento plático piano
+            Robusto, resistente contra arranhões
+            Falante de alto magnetismo, som potente com ótima qualidade
+            Som distinto para games, com graves e agudos meticulosos para escutar música
+            Headband ajustável com design ergonômico, peso moderado para longos períodos de uso sem pressão
+            Compatível com Xbox One, PS4, PC e Outros aparelhos multimídia
+            headset splitter adaptador
+            Ao conectar o headset ao computador, você deve utilizar o cabo adaptador (um pino TRRS feminino para dois pinos P2 masculinos). Certifique-se de que o modo Mudo esteja desligado no controlador que fica no cabo do fone</h5>
+            <h3>R$199.00</h3>
+            <a href="carrinho-de-compras.html">
+              <section>
+                <div class="divbtn"><button class="btn bt1">Comprar</button></div>
+            </section>
+          </a>
+          
+
+
+        </div><!--home-text-->
+    </section><!--home-->
+
+
+    <div class="main">
+        <div class="row">
+            <li><img src="main1.png" onclick="slider('product1.png')"></li>
+        </div><!--row-->
+
+        <div class="row2">
+            <li><img src="main2.png" onclick="slider('product2.png')"></li>
+        </div><!--row2-->
+
+        <div class="row3">
+            <li><img src="main3.png" onclick="slider('product3.png')"></li>
+        </div><!--row3-->
+    </div><!--main-->
+    <script>
+        function slider (anything){
+            document.querySelector ('.one') .src = anything;
+        };
+
+       let menu = document.querySelector ('#menu-icon');
+       let navbar = document.querySelector ('.navbar');
+
+       menu.onclick = () => {
+        menu.classList.toggle ('bx-x');
+        navbar.classList.toggle ('open');
+       }
+    </script>
+     </div>
+
+      <div class="login-container">
+        <button id="login-btn" class="login-btn">Login</button>
+        <div id="login-form" class="login-form">
+          <div class="form-tabs">
+            <button id="login-tab" class="form-tab active">Login</button>
+            <button id="signup-tab" class="form-tab">Cadastrar</button>
+          </div>
+          <form id="login" class="form active">
+            <label for="username">Usuário</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+            <button type="submit">Entrar</button>
+          </form>
+
+          <form id="signup" class="form">
+            <label for="new-username">Usuário</label>
+            <input type="text" id="new-username" name="new-username" placeholder="Escolha um usuário" required>
+
+            <label for="new-password">Senha</label>
+            <input type="password" id="new-password" name="new-password" placeholder="Escolha uma senha" required>
+
+            <label for="confirm-password">Confirmar Senha</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+
+            <button type="submit">Cadastrar</button>
+          </form>
+
+          <button type="button" id="close-btn" class="close-btn">Fechar</button>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+
+    <h5>Sobre: Fundado em 2024, SoundBox! Mais uma das lojas de comércio eletrônico brasileira, tendo objetivo em se tornar umas das maiores do Brasil.</h5>
+</body>
+</html>
